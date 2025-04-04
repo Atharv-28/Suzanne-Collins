@@ -1,8 +1,9 @@
 import React from 'react'
 import TabsComp from '../Components/tabs';
+import '../App.css'
 const Home = () => {
   return (
-    <div>
+    <div className='landing_page'>
         <TabsComp/>
     </div>
   );
