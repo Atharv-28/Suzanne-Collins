@@ -11,7 +11,7 @@ const TabsComp = () => {
   };
 
   return (
-    <>
+    <div className="tabs_container">
       <Tabs
         value={value}
         onChange={handleChange}
@@ -25,7 +25,7 @@ const TabsComp = () => {
         <Tab label="Educ. Resources" />
       </Tabs>
       {value === 0 && <HomeContent />}
-    </>
+    </div>
   );
 };
 export default TabsComp;

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/homeContent.css";
+import ScrollBooks from "./scrollBooks";
 
 const HomeContent = () => {
   return (
@@ -26,18 +27,7 @@ const HomeContent = () => {
       </div>
       <div className="home_content_scroll">
         <h3>Trending Books ...</h3>
-        <div className="home_content_scroll_container">
-          <div className="home_book">
-            <h4>SUNRISE ON THE REAPING</h4>
-            <div>
-              <img
-                className="home_book_img"
-                src="https://www.suzannecollinsbooks.com/images/central-park-ii-small.jpg"
-              />
-              <p>#1 USA TODAY BESTSELLER!</p>
-            </div>
-          </div>
-        </div>
+        <ScrollBooks />
       </div>
       <div className="selected_works"></div>
     </div>

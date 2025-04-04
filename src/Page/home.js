@@ -4,7 +4,7 @@ import '../App.css'
 const Home = () => {
   return (
     <div className='landing_page'>
-        <TabsComp/>
+        <TabsComp className='tabs_scroll'/>
     </div>
   );
 }
