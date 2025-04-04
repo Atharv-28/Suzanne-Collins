@@ -1,7 +1,7 @@
 .about_content{
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    width: 100%;
     align-items: center;
     justify-items: center;
 }

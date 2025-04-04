@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+    gap: 40px;
 }
 .books_container{
     display: flex;
@@ -13,14 +14,16 @@
     align-items: center;
     width: 100%;
     max-width: 1400px;
-    gap: 20px;
+    gap: 40px;
 }
 .book{
     display: flex;
     flex-direction: row;
     width: 40vw;
     height: 30vh;
-    border: 2px solid red;
+    background-color: #e5d0ff;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     padding: 20px;
 }
 
